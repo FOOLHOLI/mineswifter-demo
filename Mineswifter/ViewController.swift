@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
 //MARK: Initialization
     
-    init(coder aDecoder: NSCoder!)
+    required init(coder aDecoder: NSCoder)
     {
         self.board = Board(size: BOARD_SIZE)
         
